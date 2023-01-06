@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".passport">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:background="@mipmap/a1_3">
+        <Button
+            android:id="@+id/btn_p_back"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:background="@mipmap/a1_11"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="王曉明"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Xiao Ming"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="130dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="1996.05.22"
+                android:textColor="@color/white"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/passport_image_back"
+                android:src="@mipmap/a1_0" />
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="320dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginEnd="40dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/passport_card">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="30dp"
+                        android:src="@mipmap/a1_7"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="已完成\n第一劑疫苗"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:textColor="#1c54c6"
+                        android:gravity="center_horizontal"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="24dp"
+                        app:cardElevation="@null"
+                        app:cardCornerRadius="7dp">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="已接種疫苗"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:background="#00AE0E"/>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="320dp"
+                    android:layout_marginEnd="40dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/passport_card">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="30dp"
+                        android:src="@mipmap/a1_7"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="已完成\n第二劑疫苗"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:textColor="#1c54c6"
+                        android:gravity="center_horizontal"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="24dp"
+                        app:cardElevation="@null"
+                        app:cardCornerRadius="7dp">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="已接種疫苗"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:background="#00AE0E"/>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="320dp"
+                android:layout_marginEnd="70dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/passport_card">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="30dp"
+                        android:src="@mipmap/a1_8"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="已完成\n第三劑疫苗"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/p_card_red"
+                        android:gravity="center_horizontal"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="24dp"
+                        app:cardElevation="@null"
+                        app:cardCornerRadius="7dp">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="已接種疫苗"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:background="@color/p_card_red"/>
+                    </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
